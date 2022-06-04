@@ -1,4 +1,9 @@
 ﻿using System.Text;
+
+
+var a = 2;
+
+/*
 using Text2Scratch.ScratchObjects;
 
 
@@ -98,3 +103,4 @@ catch(ScratchException e){
     Console.WriteLine("Project failed to build: " + e.Message);
     throw;
 }
+*/

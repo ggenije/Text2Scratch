@@ -1,0 +1,22 @@
+﻿sprite Player
+{
+	costumes
+	{
+		player = costume("cat-a.svg");
+	}
+	init
+	{
+		gvar speed;
+	}
+	scripts
+	{
+		greenFlagPressed():(0,0)
+		{
+			forever
+			{
+				moveTowards(mouse);
+				moveSteps(speed);
+			}
+		}
+	}
+}
